@@ -10,7 +10,7 @@ use PHPMailer\PHPMailer\Exception;
 function sendEmailWithAttachment($to, $subject, $message, $attachmentPath, $attachmentName) {
     $mail = new PHPMailer(true);
 
-    $subject = ' International Conference on Artificial Intelligence Horizons (AIH) (AIoT) | ' . $subject;
+    $subject = ' International Conference on Artificial Intelligence Horizons (AIH) | ' . $subject;
 
 
 
