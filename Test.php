@@ -7,10 +7,10 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .swal2-title {
-      color: #f03c02 !important;
+      color: #4F0943 !important;
     }
     .swal2-confirm {
-      background-color: #f03c02 !important;
+      background-color: #4F0943 !important;
     }
   </style>
 
@@ -29,7 +29,7 @@
       '<input type="file" id="attachmentInput" class="form-control" accept=".doc,.docx,.pdf" required>' +
       '<label class="input-group-text" for="attachmentInput"><i class="bi bi-file-earmark-arrow-up"></i></label>' +
       '</div>' +
-      '<p id="error" style="color:#f03c02;display:none"></p>',
+      '<p id="error" style="color:#4F0943;display:none"></p>',
     focusConfirm: false,
     preConfirm: () => {
       const subject = document.getElementById('subjectInput').value;
